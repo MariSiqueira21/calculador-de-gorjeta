@@ -86,3 +86,218 @@ select {
 input:disabled {
     background-color: #e6e4e4;    
 }
+
+
+
+@media (max-width: 576px) {
+
+    .calculateBtn {
+        width: 200px;
+    }
+
+}
+
+@media (min-width: 767px) {
+    
+    .container {
+        width: 700px;
+        height: 800px;
+        padding: 100px;      
+    }
+    
+    h1 {
+        font-size: 30px;
+        padding: 20px 10px;
+    }
+    
+    label {
+        font-size: 20px;
+    }
+    
+    input {
+        margin-bottom: 20px;
+        height: 45px;   
+    }
+    
+    input::placeholder {
+        font-size: 20px;
+    }
+    
+    select {
+        height: 45px;   
+        padding: 10px 7px 7px 7px;
+        font-size: 16px;
+    }
+    
+    .calculateBtn {
+        width: 300px;
+        font-size: 22px;
+        padding: 16px 24px;
+    }
+   
+}
+
+@media (min-width: 1000px) {
+
+    .container {
+        width: 800px;
+        height: 1000px;
+        padding: 100px;      
+    }
+    
+    h1 {
+        font-size: 40px;
+        padding: 30px 10px;
+    }
+    
+    label {
+        font-size: 28px;
+    }
+    
+    input {
+        margin-bottom: 20px;
+        height: 55px;   
+    }
+    
+    input::placeholder {
+        font-size: 26px;
+    }
+    
+    select {
+        height: 55px;   
+        padding: 10px 7px 7px 7px;
+        font-size: 26px;
+    }
+    
+    .calculateBtn {
+        width: 400px;
+        font-size: 28px;
+        padding: 22px 20px;
+        margin: 40px 0;
+        border-radius: 10px;
+
+    }
+   
+
+    
+}
+
+@media (min-width: 1200px) { 
+
+    .container {
+        height: 700px;
+        padding: 40px;      
+    }
+    
+    h1 {
+        padding: 10px 10px;
+    }
+    
+    label {
+        font-size: 20px;
+    }
+    
+    input {
+        margin-bottom: 20px;
+        height: 45px;   
+    }
+    
+    input::placeholder {
+        font-size: 20px;
+    }
+    
+    select {
+        height: 45px;   
+        padding: 10px 7px 7px 7px;
+        font-size: 16px;
+    }
+    
+    .calculateBtn {
+        width: 300px;
+        font-size: 22px;
+        padding: 16px 24px;
+        margin: 20px 0;
+    }
+   
+   
+    
+}
+
+@media (min-width: 1920px) { 
+
+
+    .container {
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 500px;
+        border-radius: 7px; 
+        padding: 0 50px;      
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 24px;
+        padding: 65px 10px;
+        text-align: center;
+    }
+    
+    label {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0;
+        font-weight: 600;
+        text-align: start;
+    }
+    
+    input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%; 
+        height: 35px;   
+        border-radius: 5px;
+        border: 1px solid #cac9c9;
+        padding: 0 10px;
+    }
+    
+    input::placeholder {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    select {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%; 
+        height: 35px;   
+        border-radius: 5px;
+        border: 1px solid #cac9c9;
+        padding: 7px;
+    }
+    
+    .calculateBtn {
+        background-color: #570282;
+        border-radius: 7px;
+        border: none;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 12px 20px;
+        opacity: .7;
+        transition: .4s;     
+        margin: 15px ;  
+        width: 50%; 
+    }
+    
+    .calculateBtn:hover {
+        background-color: #d3abf8;
+        color: black;    
+    }
+    
+    input:disabled {
+        background-color: #e6e4e4;    
+    }
+    
+
+}
